@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* HEADER */
+.logo-chico {
+    height: 80px;
+}
+
+.header {
+    background-color: #f72585;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+/* MAIN */
+
+.abajo-header {
+    background-color: #7209b7;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+margin: 10px;
+padding: 10px;
+}
+
+.primer-seccion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+
+
+
+.lista-footer,
+li {
+    padding: 5px;
+}
+
+
+
+.imagen-1 {
+    height: 45px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen-2 {
+    height: 45px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.imagen-3 {
+    height: 45px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conex {
+    visibility: hidden;
+
+}
